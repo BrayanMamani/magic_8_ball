@@ -21,3 +21,8 @@ flutter:
 
   assets:
     - 'images/'
+
+  fonts:
+    - family: 'Pixelar'
+      fonts:
+        - asset: 'fonts/Pixelar-Regular.ttf'
