@@ -7,8 +7,16 @@ class BallPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
+        backgroundColor: Color(0xFF1B103C),
         appBar: AppBar(
-          title: Text('Ask Me Anything'),
+          title: Text(
+            'Ask Me Anything',
+            style: TextStyle(
+              fontFamily: 'Pixelar',
+              fontSize: 22.0,
+            ),
+          ),
+          backgroundColor: Color(0xFF1B103C),
         ),
         body: Ball(),
       ),
@@ -24,6 +32,15 @@ class Ball extends StatefulWidget {
 class _BallState extends State<Ball> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Center(
+      child: Padding(
+        padding: const EdgeInsets.all(16.0),
+        child: FlatButton(
+          padding: EdgeInsets.all(0.0),
+          onPressed: () {},
+          child: Image.asset('images/ball1.png'),
+        ),
+      ),
+    );
   }
 }
