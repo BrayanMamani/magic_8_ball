@@ -6,7 +6,7 @@ Flutter is Google's UI toolkit for building beautiful, natively compiled applica
 
 ## About Magic 8 Ball
 
-This repository features a magic 8 ball app, it will give you the answers to all the tough questions in life. You can make the ball change at the push of a button.
+This repository features a magic 8 ball app, will give you the answers to all the difficult questions we have in life. You can make the ball change at the push of a button.
 
 <img src="magic_8_ball.gif" width="300">
 
